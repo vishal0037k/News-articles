@@ -1,0 +1,228 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: 12px auto;
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.red-circle {
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+    color: red;
+    padding: 1px 20px;
+}
+
+.hr1 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.hr1,
+.hr2 {
+    height: 2px;
+    background-color: black;
+}
+
+.input-main {
+    display: flex;
+    gap: 0px;
+    margin-top: 40px;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+}
+
+.search {
+    padding: 10px 20px;
+    padding-left: 40px;
+    background: url(images/search.jpg) no-repeat;
+    background-position: 10px center; 
+    background-size: 20px 20px;
+    border: 1px solid black; 
+}
+.btn1 {
+    background-color: red;
+    padding: 10px 15px;
+    color: white;
+    border: none;
+}
+
+.top-news {
+    color: red;
+    font-size: 1rem;
+}
+
+.three-in-one1 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.three-in-one1 .one {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.chandrayan {
+    height: 180px;
+}
+
+.cricket {
+    max-width: 100%;
+    height: 180px;
+}
+
+.market {
+    height: 180px;
+}
+
+.three-in-one1 .two {
+    flex-grow: 2;
+    flex-basis: 200px;
+}
+
+.three-in-one1 .two img {
+    max-width: 100%;
+    width: 500px;
+}
+
+.three-in-one1 .three {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.three-in-one1 .three img {
+    max-width: 100%;
+    width: 500px;
+}
+
+.arrow {
+    color: red;
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+.three-in-one1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.three-in-one2 {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.three-in-one2 .one {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.three-in-one2 .one img {
+    max-width: 100%;
+}
+
+.three-in-one2 .two {
+    flex-grow: 2;
+    flex-basis: 200px;
+}
+
+.three-in-one2 .two img {
+    max-width: 100%;
+    width: 500px;
+}
+
+.three-in-one2 .three {
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.three-in-one2 .three img {
+    max-width: 100%;
+    width: 500px;
+}
+
+.three-in-one2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.para-heading-bold {
+    font-weight: bolder;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.hr-last {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 2px;
+    background-color: black;
+}
+
+.footer {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.footer span {
+    color: red;
+    background-color: red;
+    padding: 0px 6px;
+    border: none;
+    border-radius: 50%;
+}
+
+/* Media Queries */
+
+/* Small screens (max-width: 768px) */
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .three-in-one1 {
+        flex-direction: column;
+    }
+
+    .three-in-one1 .one,
+    .three-in-one1 .two,
+    .three-in-one1 .three {
+        flex-basis: 100%;
+    }
+
+    .three-in-one2 {
+        flex-direction: column;
+    }
+
+    .three-in-one2 .one,
+    .three-in-one2 .two,
+    .three-in-one2 .three {
+        flex-basis: 100%;
+    }
+}
+
+/* Medium screens (max-width: 992px) */
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 80%;
+    }
+}
